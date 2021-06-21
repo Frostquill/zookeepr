@@ -1,6 +1,8 @@
+const PORT = process.env.PORT || 3001;
+
 const {animals} = require('./data/animals.json');
 const express = require('express');
-const PORT = process.env.PORT || 3001;
+
 const app = express();
 
 app.listen(PORT, () => {
